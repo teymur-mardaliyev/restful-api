@@ -54,7 +54,7 @@ For UnitTest, first go to project folder, then please run the command below
 ##### Using the Voucher
     
     curl -X POST \
-      http://your.host/useVoucher \
+      http://project.address/useVoucher \
       -H 'content-type: application/json' \
       -d '{"code": "Spring2018", "email": "info@simple.com"}'
       
